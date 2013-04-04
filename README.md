@@ -12,6 +12,14 @@ The above will output:
     2, 3
     3, 3
 
+You can use anything that Numeric responds to. For example, these will work:
+
+- second/s
+- minute/s
+- week/s
+- month/s
+- fortnight/s
+
 ## Installation
 
 Add this line to your application's Gemfile:
