@@ -1,6 +1,16 @@
 # Cada
 
-TODO: Write a gem description
+Easy to read helpers to execute something every month, day, etc. This is not a scheduler. Best understood by:
+
+    Cada.month '2012-01-03'.to_date, '2012-04-01' do |date|
+      puts "#{date.month}, #{date.day}"
+    end
+
+The above will output:
+
+    1, 3
+    2, 3
+    3, 3
 
 ## Installation
 
