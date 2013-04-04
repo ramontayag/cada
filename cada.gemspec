@@ -6,10 +6,10 @@ require 'cada/version'
 Gem::Specification.new do |spec|
   spec.name          = "cada"
   spec.version       = Cada::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.authors       = ["Ramon Tayag"]
+  spec.email         = ["ramon.tayag@gmail.com"]
+  spec.description   = %q{Loop through dates (every day, every week, every month, etc)}
+  spec.summary       = %q{Step through a date by a timeframe}
   spec.homepage      = ""
   spec.license       = "MIT"
 
